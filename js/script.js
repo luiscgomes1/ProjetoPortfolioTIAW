@@ -4,20 +4,18 @@ document.addEventListener('DOMContentLoaded', function () {
         .then(dados => {
             carregarInformacoesPessoais(dados);
             carregarLinksSociais(dados.linksSociais);
-            carregarHabilidades(dados.linguagens);
+            carregarLinguagens(dados.linguagens);
             carregarExperiencias(dados.experiencias);
             carregarProjetos(dados.projetos);
         })
         .catch(erro => console.error('Erro ao carregar os dados:', erro));
 });
 
-// Função para carregar as informações pessoais
 function carregarInformacoesPessoais(dados) {
     document.getElementById('nome').textContent = dados.nome;
     document.getElementById('descricao').textContent = dados.descricao;
 }
 
-// Função para carregar os links sociais
 function carregarLinksSociais(linksSociais) {
     const container = document.getElementById('links-sociais');
     Object.entries(linksSociais).forEach(([nome, info]) => {
@@ -37,8 +35,7 @@ function carregarLinksSociais(linksSociais) {
     });
 }
 
-// Função para carregar as habilidades
-function carregarHabilidades(linguagens) {
+function carregarLinguagens(linguagens) {
     const container = document.getElementById('lista-linguagens');
     linguagens.forEach(linguagem => {
         const larguraProgresso = calcularProgresso(linguagem.nivel);
@@ -47,7 +44,7 @@ function carregarHabilidades(linguagens) {
                 <div class="card">
                     <img src="${linguagem.imagem}" class="card-img-top" alt="${linguagem.nome}">
                     <div class="card-body">
-                        <h5 class="card-title">${linguagem.nome}</h5>
+                         <h5 class="card-title">${linguagem.nome}</h5>
                         <p class="text-muted">${linguagem.nivel}</p>
                         <div class="progress">
                             <div class="progress-bar bg-dark progress-bar-striped progress-bar-animated" style="width: ${larguraProgresso};"></div>
@@ -60,7 +57,6 @@ function carregarHabilidades(linguagens) {
     });
 }
 
-// Função para calcular a largura da barra de progresso
 function calcularProgresso(nivel) {
     switch(nivel) {
         case 'Conhecimento Básico': return '30%';
@@ -70,7 +66,6 @@ function calcularProgresso(nivel) {
     }
 }
 
-// Função para carregar as experiências
 function carregarExperiencias(experiencias) {
     const container = document.getElementById('lista-experiencias');
     experiencias.forEach(exp => {
@@ -89,7 +84,6 @@ function carregarExperiencias(experiencias) {
     });
 }
 
-// Função para carregar os projetos e seus indicadores
 function carregarProjetos(projetos) {
     const listaProjetos = document.getElementById('lista-projetos');
     const indicadores = document.getElementById('carousel-indicators');
@@ -110,7 +104,6 @@ function carregarProjetos(projetos) {
         `;
         listaProjetos.insertAdjacentHTML('beforeend', item);
 
-        // Adicionar os indicadores do carrossel
         const indicador = `
             <button type="button" data-bs-target="#projetosCarousel" data-bs-slide-to="${index}" ${isActive ? 'class="active" aria-current="true"' : ''} aria-label="Slide ${index + 1}"></button>
         `;
