@@ -30,12 +30,12 @@
         {
             "nome": "Java",
             "nivel": "Conhecimento Médio",
-            "imagem": "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java       .png"
+            "imagem": "https://cdn-icons-png.flaticon.com/512/226/226777.png"
         },
         {
             "nome": "Kotlin",
-            "nivel": "Conhecimento Básico",
-            "imagem": "https://kotlinlang.org/docs/images/kotlin-logo.png"
+              "nivel": "Conhecimento Básico",
+            "imagem": "https://img.icons8.com/color/512/kotlin.png"
         },
         {
             "nome": "Django",
@@ -45,7 +45,7 @@
         {
             "nome": "Python",
             "nivel": "Conhecimento Médio",
-            "imagem": "https://cdn-icons-png.flaticon.com/512/919/919853.png"
+            "imagem": "https://cdn-icons-png.flaticon.com/512/5968/5968350.png"
         },
         {
             "nome": "JavaScript",
