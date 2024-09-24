@@ -1,0 +1,77 @@
+{
+    "nome": "Luis Alberto Carvalho Gomes",
+    "descricao": "Estudante de Análise e Desenvolvimento de Sistemas no IFTM - Campus Uberaba Parque Tecnológico. 28 anos de idade.",
+    "fotoPerfil": "",
+    "linksSociais": {
+        "GitHub": {
+            "url": "https://github.com/luiscgomes1",
+            "icone": "https://cdn-icons-png.flaticon.com/512/733/733553.png"
+        },
+        "LinkedIn": {
+            "url": "https://linkedin.com/in/luis-cgomes/",
+            "icone": "https://cdn-icons-png.flaticon.com/512/174/174857.png"
+        },
+        "Instagram": {
+            "url":"https://instagram.com/luis.cgomes",
+            "icone": "https://cdn-icons-png.flaticon.com/512/733/733558.png"
+        }
+    },
+    "linguagens": [
+        {
+            "nome": "HTML",
+            "nivel": "Conhecimento Avançado",
+            "imagem": "https://cdn-icons-png.flaticon.com/512/732/732212.png"
+        },
+        {
+            "nome": "CSS",
+            "nivel": "Conhecimento Médio",
+            "imagem": "https://cdn-icons-png.flaticon.com/512/732/732190.png"
+        },
+        {
+            "nome": "JavaScript",
+            "nivel": "Conhecimento Avançado",
+            "imagem": "https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
+        },
+        {
+            "nome": "Angular",
+            "nivel": "Conhecimento Médio",
+            "imagem": "https://cdn-icons-png.flaticon.com/512/732/732232.png"
+        },
+        {
+            "nome": "Node.js",
+            "nivel": "Conhecimento Básico",
+            "imagem": "https://cdn-icons-png.flaticon.com/512/919/919825.png"
+        }
+    ],
+    "experiencias": [
+        {
+            "titulo": "Desenvolvedor Full Stack",
+            "empresa": "Empresa X",
+            "descricao": "Desenvolvimento de aplicações web usando Angular e Node.js.",
+            "periodo": "2021 - Presente"
+        },
+        {
+            "titulo": "Gerente de Vendas",
+            "empresa": "Loja Y",
+            "descricao": "Gestão de equipes de vendas e implementação de estratégias de marketing.",
+            "periodo": "2018 - 2021"
+        }
+    ],
+    "projetos": [
+        {
+            "nome": "Portfolio Pessoal/Profissional",
+            "descricao": "Meu portfólio pessoal/profissional feito com HTML, CSS e JavaScript, usando Bootstrap/CSS para estilização. Projeto feito na matéria de TIAW.",
+            "link": "https://github.com/luiscgomes1/portfolio"
+        },
+        {
+            "nome": "Sistema de Doação de Sangue",
+            "descricao": "Uma aplicação Web para gerenciar doações de sangue, feita em Python/Django. Projeto feito na matéria de DAW II.",
+            "link": "https://github.com/luiscgomes1/task-manager"
+        },
+        {
+            "nome": "Café",
+            "descricao": "Aplicação mobile para gerenciamento e venda de cafés, feita usando Kotlin. Projeto feito na matéria de PDM.",
+            "link": "https://github.com/luiscgomes1/ecommerce-api"
+        }        
+    ]
+}
