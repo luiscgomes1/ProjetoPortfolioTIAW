@@ -11,3 +11,4 @@ estes dados no seu site.
 5. Esta atividade é individual.
 
 Para esta atividade foi criada uma página em HTML, estilizada com o Bootstrap 5 e CSS, além de uso de JavaScript e um arquivo JSON para alimentar o HTML dinamicamente.
+Este projeto está sendo hospedado no GitHub pelo link: https://luiscgomes1.github.io/ProjetoPortfolioTIAW/
