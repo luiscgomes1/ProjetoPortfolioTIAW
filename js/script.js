@@ -44,7 +44,7 @@ function carregarLinguagens(linguagens) {
                 <div class="card">
                     <img src="${linguagem.imagem}" class="card-img-top" alt="${linguagem.nome}">
                     <div class="card-body">
-                         <h5 class="card-title">${linguagem.nome}</h5>
+                             <h5 class="card-title">${linguagem.nome}</h5>
                         <p class="text-muted">${linguagem.nivel}</p>
                         <div class="progress">
                             <div class="progress-bar bg-dark progress-bar-striped progress-bar-animated" style="width: ${larguraProgresso};"></div>
